@@ -1,0 +1,18 @@
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.csproj.AssemblyReference.cache
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.AssemblyInfoInputs.cache
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.AssemblyInfo.cs
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.csproj.CoreCompileInputs.cache
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\bin\Debug\netcoreapp3.1\NTIPDF.Utility.deps.json
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\bin\Debug\netcoreapp3.1\NTIPDF.Utility.dll
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\bin\Debug\netcoreapp3.1\NTIPDF.Utility.pdb
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.dll
+E:\@Workspace\Prayut\Downloads\SimpleBlazorPDF-main - Copy\MakePDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.pdb
+D:\DemoSignature\NTIPDF\bin\Debug\netcoreapp3.1\NTIPDF.Utility.deps.json
+D:\DemoSignature\NTIPDF\bin\Debug\netcoreapp3.1\NTIPDF.Utility.dll
+D:\DemoSignature\NTIPDF\bin\Debug\netcoreapp3.1\NTIPDF.Utility.pdb
+D:\DemoSignature\NTIPDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.csproj.AssemblyReference.cache
+D:\DemoSignature\NTIPDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.AssemblyInfoInputs.cache
+D:\DemoSignature\NTIPDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.AssemblyInfo.cs
+D:\DemoSignature\NTIPDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.csproj.CoreCompileInputs.cache
+D:\DemoSignature\NTIPDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.dll
+D:\DemoSignature\NTIPDF\obj\Debug\netcoreapp3.1\NTIPDF.Utility.pdb

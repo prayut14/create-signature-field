@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>The MPL / LGPLv2 version of the iTextSharp library.</Copyright>
+    <Description>Utility for PDF by iTextSharp Open source.
+iTextSharp (LGPL / MPL) 4.1.6
+iTextSharp is a port of the iText open source Java library for PDF generation written entirely in C# for the .NET platform. This repository contains the source code of the last version of the library released under the Mozilla Public License and the LGPL.</Description>
+    <Company>NTIPDF.Utility</Company>
+    <Authors>NTIPDF.Utility</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.7.4" />
+  </ItemGroup>
+
+</Project>

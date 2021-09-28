@@ -1,0 +1,46 @@
+﻿@page "/testcreatepdf"
+@using System.IO
+@inject IJSRuntime js
+@inject HttpClient HttpClient
+
+<div style="text-align:center;">
+    <h1>ตัวอย่างการสร้าง Signature field ในไฟล์ PDF</h1>
+    <p>This is one of the simplest possible examples of creating a PDF with Blazor</p>
+</div>
+<div style="background-color:#ffffff;width:400px;border:1px solid #114f8b;padding:20px;border-radius:3px;margin:auto;">
+    <div style="text-align:center;margin-bottom:15px;padding-bottom:10px;border-bottom:1px solid #cccccc;">
+        <img src="/images/pdflocation.jpg" />
+        ตัวอย่างการกำหนดตำแหน่ง (x,y,width,height)
+    </div>
+    <div style="text-align:center"><button class="btn btn-primary" @onclick="@(e => SaveToFile("ExampleDocSignatureObject.pdf"))" style="width:200px;">Save To File</button></div>
+</div>
+<br/>
+<table class="table">
+    <tr><td style="min-width:180px;"><b>Add reference:</b></td><td>NTIPDF.dll หรือสำหรับ .NET Core สามารถ Add NuGet package iTextSharp.LGPLv2.Core -Version 1.7.4</td></tr>
+    <tr>
+        <td><b>การเรียกใช้งาน:</b></td>
+        <td>
+            การสร้างไฟล์ PDF และทำการส่งผลลัพธ์กลับมาเป็น byte[] เพื่อ download ไปที่ client<br/>
+            byte[] data = NTIPDF.Utility.CreateSignatureField(SignatureName, x, y, Width, Height, PageNumber);
+            <br />ตัวอย่าง NTIPDF.Utility.CreateSignatureField("ID1_SIGNATURE",100,100,200,100,1);
+        </td>
+    </tr>
+    <tr><td><b>หมายเหตุ:</b></td><td>
+    iTextSharp (LGPL / MPL) 4.1.6<br />
+    iTextSharp is a port of the iText open source Java library for PDF generation written entirely in C# for the .NET platform. This repository contains the source code of the last version of the library released under the Mozilla Public License and the LGPL, before the project moved to the AGPL. You can use this version if you need a free PDF library for use in closed-source projects.<br /><br />
+    iTextSharp.LGPLv2.Core 1.7.4<br />
+    Is an port of the last LGPL version of the iTextSharp (V4.1.6) to .NET Core.
+</td></tr>
+</table>
+
+@code {
+    private void SaveToFile(string filename)
+    {
+        //การสร้าง Signature Object.
+        //CreatePDF(SignatureName, x, y, Width, Height, PageNumber);
+        //ตัวอย่างการสร้างเอกสารใหม่
+        byte[] data = NTIPDF.Utility.CreateSignatureField("ID1_SIGNATURE", 100, 100, 100, 50, 1);
+        //Response file to client.
+        js.InvokeVoidAsync("SaveFile", filename, Convert.ToBase64String(data));
+    }
+}
